@@ -54,8 +54,10 @@ const cardArray = [
 
 //defining grid in js
 const grid = document.querySelector('.grid')
+const resultDisplay = document.querySelector('#result')
 var cardsSelect = []
 var cardsSelectId = []
+var cardsWon = []
 
 
 //create your board and loop over array
@@ -72,6 +74,27 @@ function createBoard() {
 createBoard()
 
 //check for matches
+function checkForMatch() {
+    var cards = document.querySelectorAll('img')
+    const optionOneId = cardsChosenId[0]
+    const optionTwoId = cardsChosenId[1]
+
+    if (cardsChosen[0] === cardsChosen[1]) {
+        alert('You found a pair!')
+        cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        cards[optionTwoIdneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        cardsWon.push(cardsChosen)
+    } else {
+        cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        cards[optionTwoIdneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        alert('Oops, try again!')
+    }
+    //either way- flip cards again
+    cardsSelect = []
+    cardsSelectId = []
+    resultDisplay
+}
+
 
 
 
@@ -81,6 +104,12 @@ function flipCard() {
     cardsSelect.push(cardArray[cardId].name)
     cardsSelectId.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
+
+    //create if statement so the user selects a pair, set timer 500mill-second
+
+    if (cardsSelect.length === 2) {
+        setTimeout(checkForPair, 500)
+    }
 }
 
 })
