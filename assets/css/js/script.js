@@ -54,6 +54,8 @@ const cardArray = [
 
 //defining grid in js
 const grid = document.querySelector('.grid')
+var cardsSelect = []
+var cardsSelectId = []
 
 
 //create your board and loop over array
@@ -62,6 +64,7 @@ function createBoard() {
         var card = document.createElement('img')
         card.setAttribute('src', 'assets/css/images/card.jpg')
         card.setAttribute('data-id', i)
+        //card.addEventListener('click', flipCard)
         grid.appendChild(card)
     }
 }
@@ -73,5 +76,11 @@ createBoard()
 
 
 //flip your card
+function flipCard() {
+    var cardId = this.getAttribute('data-id')
+    cardsSelect.push(cardArray[cardId].name)
+    cardsSelectId.push(cardId)
+    this.setAttribute('src', cardArray[cardId].img)
+}
 
 })
