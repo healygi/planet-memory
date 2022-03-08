@@ -52,11 +52,14 @@ const cardArray = [
 }
 ]
 
+cardArray.sort(() => 0.5 - Math.random())
+
+
 //defining grid in js
 const grid = document.querySelector('.grid')
 const resultDisplay = document.querySelector('#result')
-var cardsSelect = []
-var cardsSelectId = []
+var cardsChosen = []
+var cardsChosenId = []
 var cardsWon = []
 
 
@@ -66,7 +69,7 @@ function createBoard() {
         var card = document.createElement('img')
         card.setAttribute('src', 'assets/css/images/card.jpg')
         card.setAttribute('data-id', i)
-        //card.addEventListener('click', flipCard)
+        card.addEventListener('click', flipCard)
         grid.appendChild(card)
     }
 }
@@ -82,33 +85,34 @@ function checkForMatch() {
     if (cardsChosen[0] === cardsChosen[1]) {
         alert('You found a pair!')
         cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
-        cards[optionTwoIdneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        cards[optionTwoId].setAttribute('src', 'assets/css/images/blank.jpg')
         cardsWon.push(cardsChosen)
     } else {
-        cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
-        cards[optionTwoIdneId].setAttribute('src', 'assets/css/images/blank.jpg')
+        cards[optionOneId].setAttribute('src', 'assets/css/images/card.jpg')
+        cards[optionTwoId].setAttribute('src', 'assets/css/images/card.jpg')
+   
         alert('Oops, try again!')
-    }
-    //either way- flip cards again
-    cardsSelect = []
-    cardsSelectId = []
-    resultDisplay
 }
+    //either way- flip cards again
+    cardsChosen = []
+    cardsChosenId = []
+    resultDisplay.textContent = cardsWon.length
 
-
-
-
+    if (cardsWon.length === cardArray.length/2) {
+        resultDisplay.textContent = 'Congratulations! You found them all'
+    }
+}
 //flip your card
 function flipCard() {
     var cardId = this.getAttribute('data-id')
-    cardsSelect.push(cardArray[cardId].name)
-    cardsSelectId.push(cardId)
+    cardsChosen.push(cardArray[cardId].name)
+    cardsChosenId.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
 
     //create if statement so the user selects a pair, set timer 500mill-second
 
-    if (cardsSelect.length === 2) {
-        setTimeout(checkForPair, 500)
+    if (cardsChosen.length === 2) {
+        setTimeout(checkForMatch, 500)
     }
 }
 
