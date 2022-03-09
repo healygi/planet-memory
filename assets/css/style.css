@@ -1,4 +1,4 @@
-/*body {
+body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Mono', monospace;;
@@ -13,7 +13,7 @@
   text-align: center;
 } */
 
-/* grid for JS Game area 
+/* grid for JS Game area */
 
 .grid {
     display:flex;
@@ -89,4 +89,30 @@ text-align: center;
   line-height: 150%;
   font-size: 15px;
 
+}
+
+/* Media Queries */
+
+/* For mobile phones: */
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (max-width: 560px) {
+
+header {
+font-size: 13px;
+}
+
+p {
+  margin: 0 ;
+}
+.menu li {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.menu ul {
+  margin: 0;
+  margin-bottom: 20px;
+}
 }
