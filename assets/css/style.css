@@ -1,9 +1,11 @@
 body {
-    background-color: black;
+    background-color:#153b93;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Mono', monospace;;
-    color: blue;
-} 
+    color: #d3d0de;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/22921138/thumb/1.jpg);
+    background-size: cover;
+}
 
  /*
 .header {
@@ -53,7 +55,7 @@ body {
 .col-12 {width: 100%;}
 
 .welcome {
-  background-color: #9933cc;
+  background-color: #f0391e;
   color: #ffffff;
   padding: 15px;
   text-align: center;
@@ -70,7 +72,7 @@ body {
   margin-bottom: 45px;
   margin-left: 305px;
   margin-right: 50px;
-  background-color: #33b5e5;
+  background-color: #f0391e;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   text-align: center;
