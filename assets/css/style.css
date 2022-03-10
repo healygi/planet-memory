@@ -21,6 +21,7 @@ body {
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+    text-align: center;
 }
 
 /* css responsive grid */
@@ -39,7 +40,7 @@ body {
   float: left;
   padding: 15px;
 }
-
+/* For desktop */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -52,6 +53,13 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 .welcome {
   background-color: #f0391e;
@@ -90,6 +98,14 @@ text-align: center;
   line-height: 150%;
   font-size: 15px;
 
+}
+
+.footer {
+  background-color: #f0391e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
 }
 
 /* Media Queries */
