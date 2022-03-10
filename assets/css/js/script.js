@@ -99,7 +99,9 @@ function checkForMatch() {
     resultDisplay.textContent = cardsWon.length
 
     if (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations! You found them all'
+        alert('Congratulations! You found them all')
+        createBoard()
+        
     }
 }
 //flip your card
@@ -117,3 +119,13 @@ function flipCard() {
 }
 
 })
+
+//set function for timer 
+
+//function timeHandler() {
+ // alert("Hey! Time is running out! Get matching!");
+//}
+//if (flipCard > 2)
+//setTimeout(timeHandler, 500);
+
+
