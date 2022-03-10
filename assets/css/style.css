@@ -1,12 +1,13 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Mono', monospace;;
-    color: #d3d0de;
-    background-image: url(https://ak.picdn.net/shutterstock/videos/22921138/thumb/1.jpg);
-    background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  ;
+  color: #d3d0de;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/22921138/thumb/1.jpg);
+  background-size: cover;
 }
 
- /*
+/*
 .header {
   background-color:gray;
   color: #ffffff;
@@ -17,11 +18,11 @@ body {
 /* grid for JS Game area */
 
 .grid {
-    display:flex;
-    flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+  text-align: center;
 }
 
 /* css responsive grid */
@@ -29,6 +30,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
 /*
 .row::after {
   content: "";
@@ -45,18 +47,18 @@ body {
 
 .menu ul {
   list-style-type: none;
- /* margin: 10; */
-  padding: 0; 
+  /* margin: 10; */
+  padding: 0;
 }
 
 .menu li {
   padding: 50px;
   margin-bottom: 45px;
- /* margin-left: 305px;
+  /* margin-left: 305px;
   margin-right: 50px; */
   background-color: #f0391e;
   color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   text-align: center;
 }
 
@@ -65,7 +67,7 @@ body {
 }
 
 p {
-text-align: center;
+  text-align: center;
   padding: 0px;
   /*margin-bottom: 45px;
   margin-left: 305px;
@@ -164,7 +166,8 @@ p {
     width: 100%;
   }
 }
-  /* For desktop: */
+
+/* For desktop: */
 
 @media only screen and (min-width: 800px) {
 
@@ -216,30 +219,33 @@ p {
     width: 100%;
   }
 
-.menu ul {
-  padding: 10px;
-  margin-left: 300px;
-  margin-right: 200px;
-}
-.menu li {
-  padding: 80px;
-  width: 200px;
-  height: 10px;
-}
-p {
-  padding: 0px;
-  margin-left: 380px;
-}
+  .menu ul {
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 200px;
+  }
 
-.grid {
-  position: center;
-}
+  .menu li {
+    padding: 80px;
+    width: 200px;
+    height: 10px;
+  }
+
+  p {
+    padding: 0px;
+    margin-left: 380px;
+  }
+
+  .grid {
+    position: center;
+  }
 }
 
 @media only screen and (min-width: 900px) {
   .menu li {
     text-align: center;
   }
+
   .menu ul {
     text-align: center;
   }
@@ -248,5 +254,5 @@ p {
     text-align: center;
 
   }
-  
+
 }
