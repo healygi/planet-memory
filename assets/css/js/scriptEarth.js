@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
     //card options
 
     const cardArray = [{
-            name: 'asteroid',
-            img: 'assets/css/images/asteroid.jpg'
+            name: 'lake',
+            img: 'assets/css/images/lake.jpg'
         },
         {
-            name: 'asteroid',
-            img: 'assets/css/images/asteroid.jpg'
-        },
-        {
-            name: 'earth',
-            img: 'assets/css/images/earth.jpg'
+            name: 'lake',
+            img: 'assets/css/images/lake.jpg'
         },
         {
             name: 'earth',
             img: 'assets/css/images/earth.jpg'
         },
         {
-            name: 'galaxy',
-            img: 'assets/css/images/galaxy.jpg'
+            name: 'earth',
+            img: 'assets/css/images/earth.jpg'
         },
         {
-            name: 'galaxy',
-            img: 'assets/css/images/galaxy.jpg'
+            name: 'whale',
+            img: 'assets/css/images/whale.jpg'
         },
         {
-            name: 'moon',
-            img: 'assets/css/images/moon.jpg'
+            name: 'whale',
+            img: 'assets/css/images/whale.jpg'
         },
         {
-            name: 'moon',
-            img: 'assets/css/images/moon.jpg'
+            name: 'mountains',
+            img: 'assets/css/images/mountains.jpg'
         },
         {
-            name: 'nasa',
-            img: 'assets/css/images/nasa.jpg'
+            name: 'mountains',
+            img: 'assets/css/images/mountains.jpg'
         },
         {
-            name: 'nasa',
-            img: 'assets/css/images/nasa.jpg'
+            name: 'plant',
+            img: 'assets/css/images/plant.jpg'
         },
         {
-            name: 'planet',
-            img: 'assets/css/images/planet.jpg'
+            name: 'plant',
+            img: 'assets/css/images/plant.jpg'
         },
         {
-            name: 'planet',
-            img: 'assets/css/images/planet.jpg'
+            name: 'volcano',
+            img: 'assets/css/images/volcano.jpg'
+        },
+        {
+            name: 'volcano',
+            img: 'assets/css/images/volcano.jpg'
         }
     ]
 
