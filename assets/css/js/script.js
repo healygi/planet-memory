@@ -52,6 +52,8 @@ const cardArray = [
 }
 ]
 
+//randomise my card array
+
 cardArray.sort(() => 0.5 - Math.random())
 
 
@@ -63,7 +65,7 @@ var cardsChosenId = []
 var cardsWon = []
 
 
-//create your board and loop over array
+//create board and loop over array
 function createBoard() {
     for(let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img')
@@ -81,47 +83,44 @@ function checkForMatch() {
     var cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
-
-    /*if (cardsChosen[0] === cardsChosen[1]) {
+    if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
         alert('You found a pair!')
         cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
         cards[optionTwoId].setAttribute('src', 'assets/css/images/blank.jpg')
-        cardsWon.push(cardsChosen) */
-    if (cardsChosen[0] === cardsChosen[0]) {
-        alert('Error, nice try but thats not a match!')
-        cards[optionOneId].setAttribute('src', 'assets/css/images/card.jpg')
+        cards[optionOneId].removeEventListener("click", flipCard); 
+        cards[optionTwoId].removeEventListener("click", flipCard);
+        cardsWon.push(cardsChosen)
     } else {
         cards[optionOneId].setAttribute('src', 'assets/css/images/card.jpg')
         cards[optionTwoId].setAttribute('src', 'assets/css/images/card.jpg')
    
         alert('Oops, try again!')
     }
-    
-}
     //either way- flip cards again
     cardsChosen = []
     cardsChosenId = []
-    resultDisplay.textContent = cardsWon.length
-
+    resultDisplay.textContent = cardsWon.length 
     if (cardsWon.length === cardArray.length/2) {
-        alert('Congratulations! You found them all')
-    }
-}
+        alert('Congratulations! You found them all!')
+        location.reload(); //reloads game
+    } 
+} 
 //flip your card
+
 function flipCard() {
     var cardId = this.getAttribute('data-id')
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenId.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
 
-    //create if statement so the user selects a pair, set timer 500mill-second
+    //create if statement to check if cards match, set timer 500mill-second
 
     if (cardsChosen.length === 2) {
         setTimeout(checkForMatch, 500)
     }
 }
 
-)
+
 
 //set function for timer 
 
@@ -131,4 +130,4 @@ function flipCard() {
 //if (flipCard > 2)
 //setTimeout(timeHandler, 500);
 
-
+})

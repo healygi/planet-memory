@@ -13,3 +13,5 @@ https://www.google.com/search?q=blue+background+with+stars&tbm=isch&ved=2ahUKEwj
 https://imagecolorpicker.com/en (Nasa color pallet)
 
 https://www.w3schools.com/howto/howto_css_fixed_footer.asp (sticky footer)
+
+https://stackoverflow.com/questions/49240718/how-to-create-a-restart-button-for-a-game-in-java-script (restart game button)
