@@ -82,16 +82,21 @@ function checkForMatch() {
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
 
-    if (cardsChosen[0] === cardsChosen[1]) {
+    /*if (cardsChosen[0] === cardsChosen[1]) {
         alert('You found a pair!')
         cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
         cards[optionTwoId].setAttribute('src', 'assets/css/images/blank.jpg')
-        cardsWon.push(cardsChosen)
+        cardsWon.push(cardsChosen) */
+    if (cardsChosen[0] === cardsChosen[0]) {
+        alert('Error, nice try but thats not a match!')
+        cards[optionOneId].setAttribute('src', 'assets/css/images/card.jpg')
     } else {
         cards[optionOneId].setAttribute('src', 'assets/css/images/card.jpg')
         cards[optionTwoId].setAttribute('src', 'assets/css/images/card.jpg')
    
         alert('Oops, try again!')
+    }
+    
 }
     //either way- flip cards again
     cardsChosen = []
@@ -100,8 +105,6 @@ function checkForMatch() {
 
     if (cardsWon.length === cardArray.length/2) {
         alert('Congratulations! You found them all')
-        createBoard()
-        
     }
 }
 //flip your card
@@ -118,7 +121,7 @@ function flipCard() {
     }
 }
 
-})
+)
 
 //set function for timer 
 
