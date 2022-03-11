@@ -78,7 +78,7 @@ function createBoard() {
 
 createBoard()
 
-//check for matches
+//check for matches and ensure card can't be clicked twice
 function checkForMatch() {
     var cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
@@ -87,7 +87,7 @@ function checkForMatch() {
         alert('You found a pair!')
         cards[optionOneId].setAttribute('src', 'assets/css/images/blank.jpg')
         cards[optionTwoId].setAttribute('src', 'assets/css/images/blank.jpg')
-        cards[optionOneId].removeEventListener("click", flipCard); 
+        cards[optionOneId].removeEventListener("click", flipCard); //remove event listner so user can't click card again
         cards[optionTwoId].removeEventListener("click", flipCard);
         cardsWon.push(cardsChosen)
     } else {
