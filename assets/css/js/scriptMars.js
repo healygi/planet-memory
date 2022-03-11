@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
     //card options
 
     const cardArray = [{
-            name: 'nasa',
-            img: 'assets/css/images/nasa.jpg'
+            name: 'asteroid',
+            img: 'assets/css/images/asteroid.jpg'
         },
         {
-            name: 'nasa',
-            img: 'assets/css/images/nasa.jpg'
+            name: 'asteroid',
+            img: 'assets/css/images/asteroid.jpg'
         },
         {
-            name: 'moon',
-            img: 'assets/css/images/moon.jpg'
+            name: 'astronaut',
+            img: 'assets/css/images/astronaut.jpg'
         },
         {
-            name: 'moon',
-            img: 'assets/css/images/moon.jpg'
+            name: 'astronaut',
+            img: 'assets/css/images/astronaut.jpg'
         },
         {
-            name: 'moonSetting',
-            img: 'assets/css/images/moonSetting.jpg'
+            name: 'galaxy',
+            img: 'assets/css/images/galaxy.jpg'
         },
         {
-            name: 'moonSetting',
-            img: 'assets/css/images/moonSetting.jpg'
+            name: 'galaxy',
+            img: 'assets/css/images/galaxy.jpg'
         },
         {
-            name: 'plantingOfFlag',
-            img: 'assets/css/images/plantingOfFlag.jpg'
+            name: 'spaceship',
+            img: 'assets/css/images/spaceship.jpg'
         },
         {
-            name: 'plantingOfFlag',
-            img: 'assets/css/images/plantingOfFlag.jpg'
+            name: 'spaceship',
+            img: 'assets/css/images/spaceship.jpg'
         },
         {
-            name: 'rocket',
-            img: 'assets/css/images/rocket.jpg'
+            name: 'redPlanet',
+            img: 'assets/css/images/redPlanet.jpg'
         },
         {
-            name: 'rocket',
-            img: 'assets/css/images/rocket.jpg'
+            name: 'redPlanet',
+            img: 'assets/css/images/redPlanet.jpg'
         },
         {
-            name: 'rocket-blast',
-            img: 'assets/css/images/rocket-blast.jpg'
+            name: 'rover',
+            img: 'assets/css/images/rover.jpg'
         },
         {
-            name: 'rocket-blast',
-            img: 'assets/css/images/rocket-blast.jpg'
+            name: 'rover',
+            img: 'assets/css/images/rover.jpg'
         }
     ]
 
