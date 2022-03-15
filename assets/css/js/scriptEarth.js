@@ -119,6 +119,37 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    //timer
+
+    const startingMinutes = 1;
+    let time = startingMinutes * 60;
+
+    const countdownEl = document.getElementById('countdown');
+
+    setInterval(updateCountdown, 1000);
+
+    function updateCountdown() {
+        const minutes = Math.floor(time/60);
+        let seconds = time % 60;
+
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        countdownEl.innerHTML = `${minutes}: ${seconds}`;
+        time--;
+        time = time < 0 ? 0 : time; //prevents timer going into the negative
+        
+      if  (minutes <= 0 && seconds <= 0 ) { //restarts timer and game if at 0
+        location.reload();
+        alert ('times up!');
+      }
+}
+
+})
+
+
+    
+
+
 
 
     //set function for timer 
@@ -128,5 +159,3 @@ document.addEventListener('DOMContentLoaded', () => {
     //}
     //if (flipCard > 2)
     //setTimeout(timeHandler, 500);
-
-})
