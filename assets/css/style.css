@@ -166,6 +166,13 @@ button {
   
 }
 }
+@media only screen and (max-width: 480px) {
+  
+  .grid {
+    margin: 0px;
+    display:inline;
+  }
+  }
 
 @media only screen and (max-width: 1500px) {
 
@@ -173,6 +180,13 @@ button {
   [class*="col-"] {
     width: 100%;
   }
+  button {
+
+    margin-bottom: 300px;
+    margin-right: 90px;
+    
+  }
+
 }
 
 @media only screen and (max-width: 281px) {
