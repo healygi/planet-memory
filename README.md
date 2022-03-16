@@ -34,11 +34,23 @@ The footer contains the title of my site and two icon to reflect the theme of th
 ### Earth Game
 
 <PICTURE OF Earth Game>
-If the user selects Earth they are taken to the page that hosts the game. The game begins and the player must match the cards with their pair before the timer runs out. As they match their cards the correct answer board collects their matches. When all the cards are matched an alert is brought to the user to inform them they have won and if they wish to play again. There is a back button on the page to take the user back to the home page if they so wish. 
+If the user selects Earth they are taken to the page that hosts the game. The game begins and the player must match the cards with their pair before the timer runs out. As they match their cards the correct answer board collects their matches. When all the cards are matched an alert is brought to the user to inform them they have won and if they wish to play again. If it is an incorrect match, an alert is brought to the user to inform them it is incorrect, try again. If a correct match is selected, an alert is brought to the user to inform them they have won a pair and the score board is updated. There is a back button on the page to take the user back to the home page if they so wish. If the timer runs out an alert is brought to the user that they have run out of time and if they want to play again. If they select ok the page refreshes and the game starts again.  
 
+I chose images of the earth as my cards. I thought this would be user friendly as the user explores planet earth while trying to match the cards. I chose images of the sea, whales, mountains etc all to reflect our blue planet. 
 
+### Mars Game
 
+<PICTURE OF Mars Game>
+If the user selects Mars they are taken to the page that hosts the game. The game begins and the player must match the cards with their pair before the timer runs out. As they match their cards the correct answer board collects their matches. When all the cards are matched an alert is brought to the user to inform them they have won and if they wish to play again. If it is an incorrect match, an alert is brought to the user to inform them it is incorrect, try again. If a correct match is selected, an alert is brought to the user to inform them they have won a pair and the score board is updated. There is a back button on the page to take the user back to the home page if they so wish. If the timer runs out an alert is brought to the user that they have run out of time and if they want to play again. If they select ok the page refreshes and the game starts again. 
 
+I chose images of Mars as my cards. I thought this would be user friendly as the user explores Mars while trying to match the cards. I chose images of the red planet, rover, an astronaut, galaxies and even a UFO (for fun) all to reflect the red planet. 
+
+### Moon Game
+
+<PICTURE OF Moon Game>
+If the user selects the Moon they are taken to the page that hosts the game. The game begins and the player must match the cards with their pair before the timer runs out. As they match their cards the correct answer board collects their matches. When all the cards are matched an alert is brought to the user to inform them they have won and if they wish to play again. If it is an incorrect match, an alert is brought to the user to inform them it is incorrect, try again. If a correct match is selected, an alert is brought to the user to inform them they have won a pair and the score board is updated. There is a back button on the page to take the user back to the home page if they so wish. If the timer runs out an alert is brought to the user that they have run out of time and if they want to play again. If they select ok the page refreshes and the game starts again. 
+
+I chose images of the Moon as my cards. I thought this would be user friendly as the user explores the Moon while trying to match the cards. I chose images of the moon, the Moon setting from earth, the planting of the US flag, a rocket etc all to reflect the Moon. 
 
 ## Credit
 
