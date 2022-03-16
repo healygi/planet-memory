@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 document.addEventListener('DOMContentLoaded', () => {
     //card options
 
@@ -139,23 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
         time = time < 0 ? 0 : time; //prevents timer going into the negative
         
       if  (minutes <= 0 && seconds <= 0 ) { //restarts timer and game if at 0
-        location.reload();
         alert ('Times Up! Play again?');
       }
 }
 
 })
-
-
-    
-
-
-
-
-    //set function for timer 
-
-    //function timeHandler() {
-    // alert("Hey! Time is running out! Get matching!");
-    //}
-    //if (flipCard > 2)
-    //setTimeout(timeHandler, 500);

@@ -15,3 +15,5 @@ https://imagecolorpicker.com/en (Nasa color pallet)
 https://www.w3schools.com/howto/howto_css_fixed_footer.asp (sticky footer)
 
 https://stackoverflow.com/questions/49240718/how-to-create-a-restart-button-for-a-game-in-java-script (restart game button)
+
+https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6 (to prevent error from showing up)
