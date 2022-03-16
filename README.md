@@ -7,6 +7,39 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 ## Features
 
+The homepage of Planet Memory hosts the instructions and 3 links within a list to take the user to each game. It also has the title of the site "Planet Memory" in the header and a footer at the end of the page. 
+
+### Header
+
+<PICTURE OF Header>
+The header contains the title of my site and a icon to reflect the theme of the game. I also placed a favicon icon in the url for a more aesthically pleasing user experience. I choose the font Roboto as I felt it reflected the theme of the game the best. The title is easy to see for the user upon viewing the page.  
+
+### Instructions 
+
+<PICTURE OF INSTRUCTION BOX>
+I placed the instructions in a div called aside and styled it accordingly to the websites pallet. I added a font awesome icon for aesthetic purposes. The instructions are clear, concise and the first thing the user is drawn to.  
+
+### Navigation
+
+<PICTURE OF Navigation>
+I placed the navigation to each game in a list and gave each an icon to reflect which planet it was. I followed the websites pallet again and spread out the list evenly. When the user hovers over each planet block it changes color. I thought this was a nice feature for aesthetic purposes. 
+
+### Footer
+
+<PICTURE OF Footer>
+The footer contains the title of my site and two icon to reflect the theme of the game. I wrote sponsored by NASA as I used NASA's logo coloring to decide on the pallet of my website. 
+
+## Game Area
+
+### Earth Game
+
+<PICTURE OF Earth Game>
+If the user selects Earth they are taken to the page that hosts the game. The game begins and the player must match the cards with their pair before the timer runs out. As they match their cards the correct answer board collects their matches. When all the cards are matched an alert is brought to the user to inform them they have won and if they wish to play again. There is a back button on the page to take the user back to the home page if they so wish. 
+
+
+
+
+
 ## Credit
 
 https://www.w3schools.com/css/css_rwd_grid.asp (for reponsivness)

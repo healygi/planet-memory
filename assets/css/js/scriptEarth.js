@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
       if  (minutes <= 0 && seconds <= 0 ) { //restarts timer and game if at 0
         alert ('Times Up! Play again?');
+        location.reload();
       }
 }
 

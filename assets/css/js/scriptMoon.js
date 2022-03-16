@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
        time = time < 0 ? 0 : time; //prevents timer going into the negative
        
      if  (minutes <= 0 && seconds <= 0 ) { //restarts timer and game if at 0
-       location.reload();
-       alert ('Times up! Play again?');
+        alert ('Times Up! Play again?');
+         location.reload();
      }
 }
 
