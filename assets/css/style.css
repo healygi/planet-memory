@@ -150,6 +150,23 @@ button {
   width: 100%;
 }
 
+@media only screen and (max-width: 380px) {
+  
+.grid {
+  margin: 0px;
+  display:inline;
+}
+.footer {
+  display: none;
+}
+button {
+
+  margin-bottom: 475px;
+  margin-left: 90px;
+  
+}
+}
+
 @media only screen and (max-width: 1500px) {
 
   /* For mobile phones: */
@@ -165,11 +182,6 @@ button {
   }
 
   .grid {
-  
-  /*flex-wrap: wrap;
-  height: 300px;
-  width: 400px;
-  text-align: center;*/
   margin: 0px; 
   display: inline;
 
