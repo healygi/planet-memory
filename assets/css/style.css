@@ -225,7 +225,7 @@ button {
   } 
 
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1900px) {
 
   /* For mobile phones: */
   [class*="col-"] {
@@ -237,5 +237,9 @@ button {
     margin-right: 90px;
     
   } 
+  .aside {
+padding: 80px;
+font-size: 20px;
+  }
 
 }
