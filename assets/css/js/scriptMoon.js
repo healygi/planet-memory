@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations! You found them all!')
+            alert('Congratulations! You found them all! Play again?')
             location.reload(); //reloads game
         }
     }
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
        
      if  (minutes <= 0 && seconds <= 0 ) { //restarts timer and game if at 0
        location.reload();
-       alert ('times up!');
+       alert ('Times up! Play again?');
      }
 }
 
