@@ -1,4 +1,11 @@
-p## Introduction
+## Planet Memory
+
+Welcome to Planet Memory! Choose a planet and play a memory game from that planet. Choose Earth, Mars or the Moon and match each card with its pair. Each card is reflective of the planet it belongs to. Hurry! Match each card before the timer runs out and watch your pairs being counted on the scoreboard. 
+
+Planet Memory is a simple memory game targeted towards kids/people who like to play spock games. Plant Memory is a fully responsive Javascript game that allows the user to match a pair of cards, playing agaisnt the timer to win the game. 
+
+
+## Features
 
 ## Credit
 
