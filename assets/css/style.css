@@ -29,7 +29,6 @@ body {
 }
 
 button {
-  position:fixed; 
   left:180px; 
   bottom: 75px;
 
@@ -150,6 +149,29 @@ button {
   width: 100%;
 }
 
+/* Media Queries */
+
+
+@media only screen and (max-width: 281px) {
+
+  .grid {
+  margin: 0px; 
+  display: inline;
+
+  }
+  .footer {
+    display: none;
+  }
+
+  button {
+
+    margin-bottom: 275px;
+    margin-left: 50px;
+    
+  }
+
+}
+
 @media only screen and (max-width: 380px) {
   
 .grid {
@@ -157,23 +179,52 @@ button {
   display:inline;
 }
 .footer {
-  display: none;
+font-size: 6px;
 }
 button {
-
-  margin-bottom: 475px;
-  margin-left: 90px;
-  
+  margin-left: 120px;
+} 
 }
-}
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 415px) {
   
   .grid {
     margin: 0px;
     display:inline;
   }
+  button {
+    margin-left: 150px;
+  } 
   }
 
+  @media only screen and (max-width: 550px) {
+  
+    .grid {
+      margin: 0px;
+      display:inline;
+    }
+    }
+
+@media only screen and (max-width: 780px) {
+
+  button {
+
+    margin-bottom: 350px;
+    margin-right: 190px; 
+  } 
+
+}
+
+@media only screen and (max-width: 920px) {
+
+
+  button {
+
+    margin-bottom: 300px;
+    margin-right: 90px;
+    
+  } 
+
+}
 @media only screen and (max-width: 1500px) {
 
   /* For mobile phones: */
@@ -185,23 +236,6 @@ button {
     margin-bottom: 300px;
     margin-right: 90px;
     
-  }
-
-}
-
-@media only screen and (max-width: 281px) {
-
-  [class*="col-9"] {
-    width: 100%;
-  }
-
-  .grid {
-  margin: 0px; 
-  display: inline;
-
-  }
-  .footer {
-    display: none;
-  }
+  } 
 
 }
