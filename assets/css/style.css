@@ -158,10 +158,24 @@ button {
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 281px) {
+
+  [class*="col-9"] {
+    width: 100%;
+  }
 
   .grid {
-    margin: 0;
+  
+  /*flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+  text-align: center;*/
+  margin: 0px; 
+  display: inline;
+
+  }
+  .footer {
+    display: none;
   }
 
 }
