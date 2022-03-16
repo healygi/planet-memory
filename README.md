@@ -52,7 +52,29 @@ If the user selects the Moon they are taken to the page that hosts the game. The
 
 I chose images of the Moon as my cards. I thought this would be user friendly as the user explores the Moon while trying to match the cards. I chose images of the moon, the Moon setting from earth, the planting of the US flag, a rocket etc all to reflect the Moon. 
 
+## Score Board & Timer
+
+<PICTURE OF SCORE BOARD>
+I positioned the score board with the timer to keep it neat. When the user gets a correct match the board updates. The timer counts back from 1 minute. Given the general simplicity of this memory game I thought one minute was enough time to try and solve the matches. The timer counts back once the game is opened. If there is no user interaction with the page the timer will keep reseting. If the timer gets to zero the game is over and the player will be asked if they want to play again. There is a back button on the page to take the user back to the home page if they so wish.
+
+
+## Features Left to Implement
+
+## Testing
+
+## Validator Testing
+
+
+## Unfixed Bugs
+
+## Deployment
+
+
 ## Credit
+
+### Content
+
+### Media
 
 https://www.w3schools.com/css/css_rwd_grid.asp (for reponsivness)
 
