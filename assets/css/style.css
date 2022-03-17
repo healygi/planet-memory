@@ -242,4 +242,12 @@ padding: 80px;
 font-size: 18px;
   }
 
+  .grid {
+    /*margin-right: 90px;*/
+    width: 55%;
+    display: inline-flex;
+    margin-left: 320px;
+    
+
+}
 }
