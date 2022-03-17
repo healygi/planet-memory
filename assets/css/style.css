@@ -156,7 +156,7 @@ button {
 
   .grid {
   margin: 0px; 
-  display: inline;
+  display: inline; 
 
   }
   .footer {
@@ -173,27 +173,33 @@ button {
 }
 
 @media only screen and (max-width: 380px) {
+
+  [class*="col-"] {
+    width: 100%;
+  }
   
 .grid {
+  display: flex;
+  flex-direction: column;
   margin: 0px;
-  display:inline;
 }
 .footer {
 font-size: 6px;
 }
-button {
-  margin-left: 120px;
-} 
 }
 @media only screen and (max-width: 415px) {
+
   
   .grid {
-    margin: 0px;
-    display:inline;
+    margin: 150px;
+    display: flex;
+  flex-direction: column;
+  margin: 0px;
+    
   }
   button {
     margin-left: 150px;
-  } 
+   
   }
 
   @media only screen and (max-width: 550px) {
@@ -216,6 +222,10 @@ button {
 
 @media only screen and (max-width: 920px) {
 
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
 
   button {
 
@@ -225,29 +235,33 @@ button {
   } 
 
 }
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1025px) {
+  .grid {
+
+    margin: 20px;
+    margin-left: 20px;
+    width: 50%;
+    
+  }
+}
+@media only screen and (max-width: 1300px) {
 
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
-  button {
-
-    margin-bottom: 300px;
-    margin-right: 90px;
-    
-  } 
+  
   .aside {
 padding: 80px;
 font-size: 18px;
   }
 
   .grid {
-    /*margin-right: 90px;*/
     width: 55%;
     display: inline-flex;
     margin-left: 320px;
-    
-
+} 
+button {
+ margin-bottom: 250px;
 }
 }
