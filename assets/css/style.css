@@ -7,6 +7,16 @@ body {
   background-size: cover;
 }
 
+#countdown {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin: 0;
+  height: 70px;
+  width: 200px;
+}
+
 /* grid for JS Game area */
 
 .grid {
@@ -18,6 +28,7 @@ body {
   margin: 100px;
 }
 
+<<<<<<< HEAD
 #countdown {
   display: inline-flex;
   align-items: center;
@@ -27,6 +38,14 @@ body {
   height: 70px;
   width: 200px;
 }
+=======
+button {
+  left:180px; 
+  bottom: 75px;
+
+}
+
+>>>>>>> 80a7f3883587779f1857f0e33c06ab658806e12e
 /* css responsive grid */
 
 * {
@@ -70,11 +89,16 @@ body {
 
 .aside {
   background-color: #f0391e;
-  padding: 15px;
+  padding: 5px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ 
+} 
+
+.aside ul {
+  list-style-type: none;
 }
 
 .footer {
@@ -137,18 +161,119 @@ body {
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+/* Media Queries */
+
+
+@media only screen and (max-width: 281px) {
+
+  .grid {
+  margin: 0px; 
+  display: inline; 
+
+  }
+  .footer {
+    display: none;
+  }
+
+  button {
+
+    margin-bottom: 275px;
+    margin-left: 50px;
+    
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.footer {
+font-size: 6px;
+}
+}
+@media only screen and (max-width: 415px) {
+
+  
+  .grid {
+    margin: 150px;
+    display: flex;
+  flex-direction: column;
+  margin: 0px;
+    
+  }
+  button {
+    margin-left: 150px;
+   
+  }
+
+  @media only screen and (max-width: 550px) {
+  
+    .grid {
+      margin: 0px;
+      display:inline;
+    }
+    }
+
+@media only screen and (max-width: 780px) {
+
+  button {
+
+    margin-bottom: 350px;
+    margin-right: 190px; 
+  } 
+
+}
+
+@media only screen and (max-width: 920px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+  button {
+
+    margin-bottom: 300px;
+    margin-right: 90px;
+    
+  } 
+
+}
+@media only screen and (max-width: 1025px) {
+  .grid {
+
+    margin: 20px;
+    margin-left: 20px;
+    width: 50%;
+    
+  }
+}
+@media only screen and (max-width: 1300px) {
 
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 560px) {
-
-  .grid {
-    margin: 0;
+  
+  .aside {
+padding: 80px;
+font-size: 18px;
   }
 
+  .grid {
+    width: 55%;
+    display: inline-flex;
+    margin-left: 320px;
+} 
+button {
+ margin-bottom: 250px;
+}
 }
