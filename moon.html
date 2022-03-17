@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="Planet Memory" content="Moon Memory Game. Match all the cards to win before the timer runs out!">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,36 +11,31 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat&family=Roboto+Mono&display=swap');
   </style>
-
+    <script src="https://kit.fontawesome.com/a2cec9abb7.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/css/js/script.js"></script>
+  <script src="assets/css/js/moonScript.js"></script>
   <title>Planet Memory</title>
 </head>
 
 <body>
 
-  <!--- <h3>Score:<span id="result"></span></h3>-->
-
   <header>
     <div class="header">
-      <h1>Planet Memory<i class="fa-light fa-rocket"></i>
+      <h1>Moon <i class="fas fa-moon"></i>
       </h1>
     </div>
   </header>
 
-  <!--Score-Area and Timer
-
-<div class="row">
-    <div class="col-3 menu">
+  <!--Score-Area and Timer -->
+  <div class="col-3 right">
+    <div class="aside">
       <ul>
-        <li>Correct Answers:<span id="result"></span></li> 
-       <li>Incorrect Answers:</li>
-        <li>Timer</li>
+        <li>Correct Answers:<span id="result"></span></li>
+        <li id="countdown">1:00</li>
       </ul>
-    </div> -->
-
-
+    </div>
+  </div>
   <!--Game-Area-->
 
   <!--Game Grid-->
@@ -49,9 +45,8 @@
     </div>
     <button onclick="history.back()">Go Back</button>
   </div>
-  </div>
   <div class="footer">
-    <p>PLANET MEMORY SPONSORED BY NASA</p>
+    <i class="fas fa-rocket"></i><p>PLANET MEMORY SPONSORED BY NASA</p><i class="fas fa-user-astronaut"></i>
   </div>
   <!--<script src="https://kit.fontawesome.com/a2cec9abb7.js" crossorigin="anonymous"></script>-->
 </body>
