@@ -68,36 +68,84 @@ I tested my site on all formats- mobile phones, tablets and desktops. I used dev
 
 I ran my deployed site on Google Chrome, Safari, Interent Explore, Firefox and Opera to make sure all worked well. 
 
-# Mobile Devices
+# Mobile Devices - iphone SE, iphone XR, iphone 10, iphone 12 Pro, Pixel 5, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Galaxy Fold
 
-## Validator Testing
+On Mobile Devices I decided to set each section to 100% width so it would fill the screen of the phone. I thought this made for a good user experience and made everything clearer to read. On Mobile devices that were less than 376px I decided to hide the footer I found it looked over crowded and made for a better user experience without it. 
 
+On Mobile Screens larger than 414px I reintroduced the footer but made the font size 6px so that it wouldnt take up too much space. I placed the back button near the game to make it easy for the user to return to the home page if they desired to. 
+
+# Tablet Devices - iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Samsung Galazy A51/71, Nest Hub, Nest Hub Max
+
+On tablet devices I expanded the content over the width of the screen as well using media queries. Similar to the mobile devices I placed the game under the timer and correct answer board and placed the back butoon near the game for easy user experience. The footer is also present here as there is more room for it. 
+
+With the Surface Duo in particular I decided to treat it more like a mobile phone device as the screen size is small for a tablet (540px) so I pushed the game near the top of the screen and placed the back button beside the game for easy user experience. 
+
+# Desktop Devices - Nest Hub, Nest Hub Max
+
+For Nest Hub I spread the content across the width of the screen. Placing the game directly under the timer and correct answer board. I placed the button to the left of the screen for easy user experience. 
+
+For Nest Hub Max I took a different approach and spaced the content of my game different. I did not strech the instruction box on the index page as personally I thought it looked too streched and took up too much space. I also made the navigation to each game smaller. For the gaming section I pushed the correct answer box and timer to the left of the screen and placed the game beside it with the back button just underneath it. I did think that there is a lot of space on the screen that isnt filled but I prefered this look than trying to spread everything out as when I made the game bigger the images became distorted.
+
+## Validator Testing 
+
+<ADD SCREENSHOTS OF VALIDATOR>
+# HTML
+No errors were returned when passing through the official W3C validator
+# CSS
+No errors were found when passing through the official (Jigsaw) validator
+# JavaScript
+No errors were found when passing through the official Jshint validator
 
 ## Unfixed Bugs
 
+I was unable to fix the bug in the timer. The alert pops up when the timer is at 0:01 instead of 0:00. I have programmed an if statement to alert when its 0:00 but for some reasom it alerts at 0:01 and then when the user clicks 'ok' it changes to 0:00 and restarts the clock. 
+
+I attempted to change to -1 but because I am preventing the timer going into the negative this did not work. I attempted to make another if statement with the condition (time = time < 0 ? 0 : time;) so the alert would come up at exactly 0:00 but I couldn't manage to get this to work before the deadline. 
+
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://healygi.github.io/planet-memory/
 
 ## Credit
 
 ### Content
 
-### Media
-
+. To make my site fully responsive I used the grid from W3 schools for reference.
 https://www.w3schools.com/css/css_rwd_grid.asp (for reponsivness)
 
-https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org (basic understanding of memory game functionality)
+. In creating my memory game I followed this video on youtube to gain basic understanding and functionality of how a memory game works and how to program such a game
+https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org 
 
+. I used the below site to optimise all images I used on my site. 
 https://tinypng.com/ (for optimising images)
 
-https://www.google.com/search?q=blue+background+with+stars&tbm=isch&ved=2ahUKEwjzpcff2bn2AhXBRcAKHWGbAqoQ2-cCegQIABAA&oq=blue+background+with+stars&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeUJkCWJkCYLoHaABwAHgAgAFniAGuAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=l_coYrP-F8GLgQbhtorQCg&bih=1001&biw=1905&hl=en-GB#imgrc=XMRk9HLGInNphM (image)
-
+. I used this site to get the color pallet for my site using NASAs logo as I felt this reflected the theme of my website.
 https://imagecolorpicker.com/en (Nasa color pallet)
 
+. I used this site to learn how to make my footer stick to the end of my page (sticky footer).
 https://www.w3schools.com/howto/howto_css_fixed_footer.asp (sticky footer)
 
+. I used this site to learn how to write a restart button for my game.
 https://stackoverflow.com/questions/49240718/how-to-create-a-restart-button-for-a-game-in-java-script (restart game button)
 
+. I recieved an error when running my js through a validator and used this site to debug this error. 
 https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6 (to prevent error from showing up)
 
+. I used this page to validate my js files. 
 https://beautifytools.com/javascript-validator.php
+
+.I used this page to validate my HTML files. 
+https://beautifytools.com/javascript-validator.php
+
+.I used this page to validate my CSS files. 
+https://beautifytools.com/javascript-validator.php
+
+### Media
+
+https://www.google.com/search?q=blue+background+with+stars&tbm=isch&ved=2ahUKEwjzpcff2bn2AhXBRcAKHWGbAqoQ2-cCegQIABAA&oq=blue+background+with+stars&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeUJkCWJkCYLoHaABwAHgAgAFniAGuAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=l_coYrP-F8GLgQbhtorQCg&bih=1001&biw=1905&hl=en-GB#imgrc=XMRk9HLGInNphM (image)
