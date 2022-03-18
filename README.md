@@ -60,7 +60,11 @@ I positioned the score board with the timer to keep it neat. When the user gets 
 
 ## Features Left to Implement
 
+I would like to add levels to my game by giving the player less time to play the game- reducing the timer to 30 seconds and so forth.
+
 ## Testing
+
+I tested my site on all formats- mobile phones, tablets, 
 
 ## Validator Testing
 
