@@ -60,11 +60,15 @@ I positioned the score board with the timer to keep it neat. When the user gets 
 
 ## Features Left to Implement
 
-I would like to add levels to my game by giving the player less time to play the game- reducing the timer to 30 seconds and so forth.
+I would like to add levels to my game by giving the player less time to play the game- reducing the timer to 30 seconds and so forth. I would like to implement a leader board to increase the competitiveness of my game. I would like the user to be able to select a character before exploring each planet. I would to update the images to better quality images to reflect each planet more adequately. 
 
 ## Testing
 
-I tested my site on all formats- mobile phones, tablets, 
+I tested my site on all formats- mobile phones, tablets and desktops. I used developer tools to make sure my site works on all device sizes. I sent my deployed link to friends and family to double check that it worked adequately on all different types of screens. 
+
+I ran my deployed site on Google Chrome, Safari, Interent Explore, Firefox and Opera to make sure all worked well. 
+
+# Mobile Devices
 
 ## Validator Testing
 
