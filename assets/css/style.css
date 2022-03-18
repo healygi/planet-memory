@@ -24,8 +24,6 @@ body {
   flex-wrap: wrap;
   height: 300px;
   width: 400px;
-  text-align: center;
-  margin: 100px;
 }
 
 button {
@@ -46,10 +44,11 @@ button {
   display: block;
 }
 
+/*
 [class*="col-"] {
   float: left;
   padding: 15px;
-}
+} */
 
 .header {
   background-color: #f0391e;
@@ -77,7 +76,7 @@ button {
 
 .aside {
   background-color: #f0391e;
-  padding: 5px;
+  padding: 15px;
   color: #ffffff;
   text-align: center;
   font-size: 15px;
@@ -100,7 +99,7 @@ button {
   width: 100%;
 }
 
-/* For desktop: */
+/* For desktop: 
 .col-1 {
   width: 8.33%;
 }
@@ -177,6 +176,10 @@ button {
   [class*="col-"] {
     width: 100%;
   }
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
   
 .grid {
   margin: 0px;
@@ -186,29 +189,39 @@ button {
   display: none;
 }
 }
-/*
-@media only screen and (max-width: 415px) {
 
-  
-  .grid {
-    margin: 150px;
-    display: flex;
-  flex-direction: column;
-  margin: 0px;
-    
+@media only screen and (max-width: 415px) {
+  [class*="col-"] {
+    width: 100%;
   }
-  button {
-    margin-left: 150px;
-   
-  } 
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  .grid {
+    margin: 0px;
+  display:contents;    
+  }
+  /*
 
   @media only screen and (max-width: 550px) {
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
   
     .grid {
       margin: 0px;
       display:inline;
     }
+
+    .button {
+      width: 500px;
     }
+    }
+
+    /*
 
 @media only screen and (max-width: 780px) {
 
@@ -218,23 +231,33 @@ button {
     margin-right: 190px; 
   } 
 
+} 
+
+*/
+@media only screen and (min-width: 920px) {
+  .grid {
+    margin-left: 210px;
+  margin-top: 100px;
+  width: 50%;
+
+  }
 }
+  /* For tablets: 
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+} 
 
-@media only screen and (max-width: 920px) {
-
-    /* For mobile phones: 
-    [class*="col-"] {
-      width: 100%;
-    }
-
-  button {
-
-    margin-bottom: 300px;
-    margin-right: 90px;
-    
-  } 
-
-}
+/*
 @media only screen and (max-width: 1025px) {
   .grid {
 
@@ -243,14 +266,12 @@ button {
     width: 50%;
     
   }
-}
-@media only screen and (max-width: 1300px) {
+} 
+@media (min-width: 810px) and (max-width: 1300px) {
 
-  /* For mobile phones: 
   [class*="col-"] {
     width: 100%;
   }
-  
   .aside {
 padding: 80px;
 font-size: 18px;
@@ -261,7 +282,8 @@ font-size: 18px;
     display: inline-flex;
     margin-left: 320px;
 } 
-button {
+.button {
  margin-bottom: 250px;
+width: 500px; }
 }
-} */
+} 
