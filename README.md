@@ -15,25 +15,33 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
  
 ![This is an image](/assets/css/images/header.png)
  
-- The header contains the title of my site and an icon to reflect the theme of the game. I also placed a favicon icon in the url for a more aesthetically pleasing user experience. I chose the font Roboto as I felt it reflected the theme of the game the best. The title is easy to see upon viewing the page. 
+- The header contains the title of my site and an icon to reflect the theme of the game. 
+- I also placed a favicon icon in the url for a more aesthetically pleasing user experience. 
+- I chose the font Roboto as I felt it reflected the theme of the game the best. 
+- The title is easy to see upon viewing the page. 
  
 # Instructions
  
 ![This is an image](/assets/css/images/instructions.png)
  
-- I placed the instructions in a div called aside and styled it in accordance with the website's palette. I added a font awesome icon for aesthetic purposes. The instructions are clear, concise and the first thing the user is drawn to. 
+- I placed the instructions in a div called aside and styled it in accordance with the website's palette. 
+- I added a font awesome icon for aesthetic purposes. 
+- The instructions are clear, concise and the first thing the user is drawn to. 
  
 # Navigation
  
 ![This is an image](/assets/css/images/navigation.png) 
 
-- I placed the navigation to each game in a list and gave each an icon to reflect which planet it was. I followed the website's palette again and spread out the list evenly. When the user hovers over each planet block it changes colour. I thought this was a nice feature for aesthetic purposes.
+- I placed the navigation to each game in a list and gave each an icon to reflect which planet it was and therefore what theme of game it would be. 
+- I followed the website's palette again and spread out the list evenly. 
+- When the user hovers over each planet block it changes colour. I thought this was a nice feature for aesthetic purposes.
  
 # Footer
  
 ![This is an image](/assets/css/images/footer.png)
  
-- The footer contains the title of my site and two icons to reflect the theme of the game. I wrote sponsored by NASA as I used NASA's logo colouring as the pallet of my website.
+- The footer contains the title of my site and two icons to reflect the theme of the game. 
+- I wrote sponsored by NASA as I used NASA's logo colouring as the palette of my website.
  
 # Game Area
  
@@ -67,16 +75,32 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
  
 ![This is an image](/assets/css/images/timer.png)
  
-- I positioned the scoreboard with the timer to keep it neat. When the user gets a correct match the board updates. The timer counts back from 1 minute. Given the general simplicity of this memory game I thought one minute was enough time to try and solve the matches. The timer counts back once the game is opened. If there is no user interaction with the page the timer will keep resetting. If the timer gets to zero the game is over and the player will be asked if they want to play again. There is a back button on the page to take the user back to the home page if they so wish.
+- I positioned the scoreboard with the timer to keep it neat. 
+- When the user gets a correct match the board updates. The timer counts back from 1 minute. 
+- Given the general simplicity of this memory game I thought one minute was enough time to try and solve the matches. 
+- The timer counts back once the game is opened. If there is no user interaction with the page the timer will keep resetting. 
+- If the timer gets to zero the game is over and the player will be asked if they want to play again. 
+- There is a back button on the page to take the user back to the home page if they so wish.
+
+## Color Palette
+
+![This is an image](/assets/css/images/nasa.png)
  
+- I chose the Nasa logo as the basis for my color palette as I felt it was fitting with the theme. 
  
 # Features Left to Implement
  
-- I would like to add levels to my game by giving the player less time to play the game- reducing the timer to 30 seconds and so forth. I would like to implement a leaderboard to increase the competitiveness of my game. I would like the user to be able to select a character before exploring each planet. I want to update the images to better quality images to reflect each planet more adequately.
+- I would like to add levels to my game by giving the player less time to play the game- reducing the timer to 30 seconds and so forth. 
+- I would like to implement a leaderboard to increase the competitiveness of my game. 
+- I would like the user to be able to select a character before exploring each planet. 
+- I want to update the images to better quality images to reflect each planet more adequately.
  
 # Testing
  
-- I tested my site on all formats- mobile phones, tablets and desktops. I used developer tools to make sure my site works on all device sizes. I sent my deployed link to friends and family to double check that it worked adequately on all different types of screens. I tested my site on the website - responsive design checker- which ran my site through a variety of different screen sizes and devices. I inspected each one and was happy with the level of responsivity.
+- I tested my site on all formats- mobile phones, tablets and desktops. I used developer tools to make sure my site works on all device sizes. 
+- I sent my deployed link to friends and family to double check that it worked adequately on all different types of screens. 
+- I tested my site on the website - responsive design checker- which ran my site through a variety of different screen sizes and devices. 
+- I inspected each one and was happy with the level of responsivity.
  
 - I ran my deployed site on Google Chrome, Safari, Internet Explorer, Firefox and Opera to make sure all worked well.
  
