@@ -103,6 +103,12 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 - I inspected each one and was happy with the level of responsivity.
  
 - I ran my deployed site on Google Chrome, Safari, Internet Explorer, Firefox and Opera to make sure all worked well.
+
+- I found some interesting bugs when testing my site:
+
+1. The user was able to click the same card twice and find a match which was incorrect - so I debugged this and turned off the event listener when the user selects the card. 
+2. The user could also match the same card twice so I made sure that the card ID and the card chosen were strictly equal for it to be an accurate match. 
+3. The timer ran into negative so I made sure it stopped at 0:00 and presented the user with an alert to restart the game. 
  
 ## Mobile Devices
  
