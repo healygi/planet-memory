@@ -11,24 +11,23 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 - The homepage of Planet Memory hosts the instructions and 3 links within a list to take the user to each game. It also has the title of the site "Planet Memory" in the header and a footer at the end of the page. 
 
-## Header
+# Header
 
 ![This is an image](/assets/css/images/header.png)
 
 - The header contains the title of my site and a icon to reflect the theme of the game. I also placed a favicon icon in the url for a more aesthically pleasing user experience. I choose the font Roboto as I felt it reflected the theme of the game the best. The title is easy to see for the user upon viewing the page.  
 
-## Instructions 
+# Instructions 
 
 ![This is an image](/assets/css/images/instructions.png)
 
 - I placed the instructions in a div called aside and styled it accordingly to the websites pallet. I added a font awesome icon for aesthetic purposes. The instructions are clear, concise and the first thing the user is drawn to.  
 
-## Navigation
+# Navigation
 
-![This is an image](/assets/css/images/navigation.png)
-- I placed the navigation to each game in a list and gave each an icon to reflect which planet it was. I followed the websites pallet again and spread out the list evenly. When the user hovers over each planet block it changes color. I thought this was a nice feature for aesthetic purposes. 
+![This is an image](/assets/css/images/navigation.png) I placed the navigation to each game in a list and gave each an icon to reflect which planet it was. I followed the websites pallet again and spread out the list evenly. When the user hovers over each planet block it changes color. I thought this was a nice feature for aesthetic purposes. 
 
-## Footer
+# Footer
 
 ![This is an image](/assets/css/images/footer.png)
 
@@ -64,7 +63,7 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 ## Score Board & Timer
 
-![This is an image](/assets/css/images/title-timer.png)
+![This is an image](/assets/css/images/timer.png)
 
 - I positioned the score board with the timer to keep it neat. When the user gets a correct match the board updates. The timer counts back from 1 minute. Given the general simplicity of this memory game I thought one minute was enough time to try and solve the matches. The timer counts back once the game is opened. If there is no user interaction with the page the timer will keep reseting. If the timer gets to zero the game is over and the player will be asked if they want to play again. There is a back button on the page to take the user back to the home page if they so wish.
 
@@ -101,15 +100,17 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 
 ## HTML
+![This is an image](/assets/css/images/html.png)
 - No errors were returned when passing through the official W3C validator
 ## CSS
+![This is an image](/assets/css/images/css.png)
 - No errors were found when passing through the official (Jigsaw) validator
 ## JavaScript
+![This is an image](/assets/css/images/js.png)
 - No errors were found when passing through the official Jshint validator
 ## Accessibility
-- The colors and fonts chosen in the making of this site are easy to read and accessible by running through lighthouse in devtools.
-
 ![This is an image](/assets/css/images/lighthouse.png)
+- The colors and fonts chosen in the making of this site are easy to read and accessible by running through lighthouse in devtools.
 
 # Unfixed Bugs
 
@@ -119,58 +120,58 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 # Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+1. In the GitHub repository, navigate to the Settings tab.
+2. From the source section drop-down menu, select the Master Branch.
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://healygi.github.io/planet-memory/
+- The live link can be found here - https://healygi.github.io/planet-memory/
 
 # Credit
 
 ## Content
 
-. To make my site fully responsive I used the grid from W3 schools for reference.
+- To make my site fully responsive I used the grid from W3 schools for reference.
 https://www.w3schools.com/css/css_rwd_grid.asp (for reponsivness)
 
-. In creating my memory game I followed this video on youtube to gain basic understanding and functionality of how a memory game works and how to program such a game
+- In creating my memory game I followed this video on youtube to gain basic understanding and functionality of how a memory game works and how to program such a game
 https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org 
 
-. I used the below site to optimise all images I used on my site. 
+- I used the below site to optimise all images I used on my site. 
 https://tinypng.com/ (for optimising images)
 
-. I used this site to get the color pallet for my site using NASAs logo as I felt this reflected the theme of my website.
+- I used this site to get the color pallet for my site using NASAs logo as I felt this reflected the theme of my website.
 https://imagecolorpicker.com/en (Nasa color pallet)
 
-. I used this site to learn how to make my footer stick to the end of my page (sticky footer).
+- I used this site to learn how to make my footer stick to the end of my page (sticky footer).
 https://www.w3schools.com/howto/howto_css_fixed_footer.asp (sticky footer)
 
-. I used this site to learn how to write a restart button for my game.
+- I used this site to learn how to write a restart button for my game.
 https://stackoverflow.com/questions/49240718/how-to-create-a-restart-button-for-a-game-in-java-script (restart game button)
 
-. I recieved an error when running my js through a validator and used this site to debug this error. 
+- I recieved an error when running my js through a validator and used this site to debug this error. 
 https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6 (to prevent error from showing up)
 
-. I used this page to validate my js files. 
+- I used this page to validate my js files. 
 https://beautifytools.com/javascript-validator.php
 
-.I used this page to validate my HTML files. 
+- I used this page to validate my HTML files. 
 https://beautifytools.com/javascript-validator.php
 
-.I used this page to validate my CSS files. 
+- I used this page to validate my CSS files. 
 https://beautifytools.com/javascript-validator.php
 
-# Media
+## Media
 
-. I sourced my background image from Google Images.
+-  I sourced my background image from Google Images.
 https://www.google.com/search?q=blue+background+with+stars&tbm=isch&ved=2ahUKEwjzpcff2bn2AhXBRcAKHWGbAqoQ2-cCegQIABAA&oq=blue+background+with+stars&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeUJkCWJkCYLoHaABwAHgAgAFniAGuAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=l_coYrP-F8GLgQbhtorQCg&bih=1001&biw=1905&hl=en-GB#imgrc=XMRk9HLGInNphM 
 
-. I sourced all my images for my memory game from pexel.
+- I sourced all my images for my memory game from pexel.
 https://www.pexels.com/
 
-. I sourced my icons from font awesome.
+- I sourced my icons from font awesome.
 https://fontawesome.com/v5/search
 
-. I sourced my fonts from Google font. 
+- I sourced my fonts from Google font. 
 https://fonts.google.com/
