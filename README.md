@@ -2,7 +2,7 @@
 
 Welcome to Planet Memory! Choose a planet and play a memory game from that planet. Choose Earth, Mars or the Moon and match each card with its pair. Each card is reflective of the planet it belongs to. Hurry! Match each card before the timer runs out and watch your pairs being counted on the scoreboard. 
 
-Planet Memory is a simple memory game targeted towards kids/people who like to play spock games. Plant Memory is a fully responsive Javascript game that allows the user to match a pair of cards, playing agaisnt the timer to win the game. 
+Planet Memory is a simple memory game targeted towards kids/people who like to play spock games. Planet Memory is a fully responsive Javascript game that allows the user to match a pair of cards, playing agaisnt the timer to win the game. The couter updates as the user gets a correct match and alerts the user if they match correctly, incorrectly or if the time is up.
 
 ![This is an image](/assets/css/images/responsive.png)
 
@@ -15,7 +15,7 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 ![This is an image](/assets/css/images/header.png)
 
-- The header contains the title of my site and a icon to reflect the theme of the game. I also placed a favicon icon in the url for a more aesthically pleasing user experience. I choose the font Roboto as I felt it reflected the theme of the game the best. The title is easy to see for the user upon viewing the page.  
+- The header contains the title of my site and a icon to reflect the theme of the game. I also placed a favicon icon in the url for a more aesthically pleasing user experience. I chose the font Roboto as I felt it reflected the theme of the game the best. The title is easy to see upon viewing the page.  
 
 # Instructions 
 
@@ -31,7 +31,7 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 
 ![This is an image](/assets/css/images/footer.png)
 
-- The footer contains the title of my site and two icon to reflect the theme of the game. I wrote sponsored by NASA as I used NASA's logo coloring to decide on the pallet of my website. 
+- The footer contains the title of my site and two icon to reflect the theme of the game. I wrote sponsored by NASA as I used NASA's logo coloring as the pallet of my website. 
 
 # Game Area
 
@@ -133,7 +133,7 @@ Planet Memory is a simple memory game targeted towards kids/people who like to p
 ## Content
 
 - To make my site fully responsive I used the grid from W3 schools for reference.
-https://www.w3schools.com/css/css_rwd_grid.asp (for reponsivness)
+https://www.w3schools.com/css/css_rwd_grid.asp (for reponsiveness)
 
 - In creating my memory game I followed this video on youtube to gain basic understanding and functionality of how a memory game works and how to program such a game
 https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org 
